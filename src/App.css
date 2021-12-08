@@ -1,0 +1,51 @@
+:root{
+  --mainBlue: #2a2a72;
+  --lightBlue: #4259da;
+  --limeGreen: #32c70d;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainYellow: #ffa400;
+  --darkYellow: #a05c03;
+  --mainBrown: #442104;
+  --mainGrey: #ecbe86;
+}
+
+body{
+  font-family: "Comfortaa", sans-serif !important; /*The important keyword is to overwrite the default bootstrap font settings*/ 
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+}
+
+.text-title{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.text-blue{
+  color: var(--mainBlue);
+}
+
+.text-bright{
+  color: var(--lightBlue);
+}
+
+.btn-black{
+  background:transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--mainDark);
+  border-radius: 0.2rem !important;
+  border: 0.1rem solid var(--mainDark) !important; 
+}
+
+.btn-black:hover{
+  background: var(--mainDark) !important;
+  color: var(--mainWhite) !important;
+}
+
+.cart-icon{
+  cursor: pointer;
+  font-size: 12.rem;
+  color: var(--mainYellow);
+}
