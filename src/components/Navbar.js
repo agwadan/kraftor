@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../telephone.svg'
+import logo from '../3.png'
 import styled from 'styled-components'
 /* import { ButtonStyler } from './Button'; */
 import { MdShoppingCart } from 'react-icons/md';
@@ -21,7 +21,7 @@ https://www.iconfinder.com/Makoto_msk */
 
                 <ul className="navbar-nav align-items-center">
                     <li className="nav-item ml-5">
-                        <Link to="/" className="nav-link">merchandise</Link>
+                        <Link to="/" className="nav-link">Kraftor</Link>
                     </li>
 
                     <li className="nav-item ml-5">
@@ -53,5 +53,4 @@ const NavStyler = styled.nav`
         font-size: 1.3rem;
         text-transform: capitalize;
     }
-
 `

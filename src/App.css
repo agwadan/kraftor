@@ -6,7 +6,7 @@
   --mainDark: #232528;
   --mainYellow: #ffa400;
   --darkYellow: #a05c03;
-  --mainBrown: #442104;
+  --mainBrown: rgb(168,144,116);
   --mainGrey: #ecbe86;
 }
 
@@ -48,4 +48,8 @@ body{
   cursor: pointer;
   font-size: 12.rem;
   color: var(--mainYellow);
+}
+
+.navbar-brand{
+  height: 60px;
 }
